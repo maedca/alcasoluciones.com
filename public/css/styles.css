@@ -1,0 +1,203 @@
+@font-face {
+    font-family: 'century_gothic';
+    src: url('../fonts/century/Centurygothic.eot');
+    src: url('../fonts/century/Centurygothic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/century/Centurygothic.woff') format('woff'),
+    url('../fonts/century/Centurygothic.ttf') format('truetype'),
+    url('../fonts/century/Centurygothic.svg#century_gothic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lato';
+    src: url('../fonts/lato/Lato-Thin.ttf') format('truetype');
+    font-weight: normal !important;
+    font-style: normal;
+}
+
+body {
+    font-family: century_gothic;
+}
+
+p {
+    line-height: 1.8em;
+}
+.carde{
+    width: 10em;
+}
+.logo {
+    margin-top: 30px;
+    /*width: 20.5em;*/
+}
+
+.logo-footer {
+    width: 20em;
+    margin-top: 25px;
+}
+
+.full {
+    width: 100% !important;
+    margin: 0;
+    padding: 0 !important;
+}
+
+nav {
+    /*background-color: #E63439;*/
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#8f1d80, #5b1a56); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#8f1d80, #5b1a56); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#8f1d80, #5b1a56); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#8f1d80, #5b1a56); /* Standard syntax */
+    box-shadow: none;
+    margin-top: 3.5%;
+}
+
+#redes > li,
+.redes > li {
+    border: none !important;
+}
+
+#redes-movil > a {
+    display: inline-block;
+}
+
+.button-collapse {
+    margin-right: 20px;
+}
+
+footer {
+    color: white;
+    line-height: 35px;
+}
+
+footer p {
+    line-height: 35px !important;
+}
+
+footer a {
+    color: white;
+}
+
+footer.page-footer {
+    background-color: #5b1a56;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+}
+
+footer [class^="icon-"] {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+footer ul {
+    line-height: 3em;
+}
+
+footer ul > li > a {
+    vertical-align: middle;
+}
+
+.footer-copyright {
+    height: auto !important;
+    background-color: transparent !important;
+    color: white !important;
+    line-height: 10px !important;
+    font-size: 12px;
+}
+.parallax-container {
+    height: 450px;
+    margin-bottom: 0px;
+}
+.logo_pmd {
+    width: 70px;
+    vertical-align: text-bottom;
+}
+
+#mapa,
+#mapa2,
+#mapa3,
+#mapa1 {
+    width: 100%;
+    height: 400px;
+    background: #e0e0e0;
+}
+
+.fondorojo {
+    background-image: url(../img/fondorojo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fondorojo > p {
+    color: white;
+}
+
+.menu-fijo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.titulos {
+    font-family: lato;
+}
+
+#creditos {
+    position: relative;
+    bottom: -70px;
+}
+#map {
+    height: 400px;
+    width: 100%;
+}
+.full{
+    width: 100% !important;
+}
+#creditos p {
+    line-height: 1em !important;
+}
+.slider .slides {
+    background-color: transparent;
+    margin: 0;
+    height: 400px;
+}
+
+.slider .slides li img {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size:100% auto;
+    background-repeat: no-repeat;
+}
+.btn, .btn-large {
+    background: #5b1a56;
+}
+.red.darken-3 {
+    background-color: #5b1a56 !important;
+}
+.material-icons:hover{
+    color:#e63439;
+}
+.slider .indicators .indicator-item.active {
+    background-color: #5b1a56;
+}
+
+.slider .slides {
+    background-color: transparent;
+    margin: 0;
+    height: 400px;
+}
+
+.slider .slides li img {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.descarga{
+    color: black;
+}
