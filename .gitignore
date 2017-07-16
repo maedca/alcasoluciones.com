@@ -3,3 +3,7 @@
 Homestead.yaml
 Homestead.json
 .env
+.idea/laravel-plugin.xml
+.idea/vcs.xml
+.idea/workspace.xml
+public/js/bxslider/

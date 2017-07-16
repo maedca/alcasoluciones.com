@@ -14,6 +14,9 @@
                                 <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
                             </div>-->
                         </li>
+                        <li><img src="{{asset('img/slider_2.jpg')}}" alt="" class="img-responsive"></li>
+                        <li><img src="{{asset('img/slider_3.jpg')}}" alt="" class="img-responsive"></li>
+                        <li><img src="{{asset('img/slider_4.jpg')}}" alt="" class="img-responsive"></li>
 
                     </ul>
                 </div>
@@ -82,7 +85,7 @@
         </div>
     </div>
     <div class="parallax-container">
-        <div class="parallax"><img class="img-responsive" src="{{asset('img/parallax.jpg')}}"></div>
+        <div class="parallax s12 l12 m12"><img class="img-responsive" src="{{asset('img/parallax.jpg')}}"></div>
     </div>
     <div class="container">
         <div class="row">
