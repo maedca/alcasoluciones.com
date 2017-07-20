@@ -1,6 +1,6 @@
 @extends('layout.app')
 @section('content')
-    <div class="container">
+    <div class="container" id="fullpa">
         <div class="row">
             <div class="col s12 m12 l12">
                 <br>
@@ -26,9 +26,9 @@
     </div>
     <div class="container" style="margin-bottom: 0px">
         <div class="row">
-            <div class="col s12 m4 l4 center">
+            <div class="col s12 m4 l4 center parte" id="slide1">
                 <img src="{{asset('img/icon_1.svg')}}" alt="" class="img-responsive carde">
-                <h3>Transporte</h3>
+                <h5>Transporte</h5>
                 <ul>
                     <li>-Pasajes a mas de 100
                         destinos nacionales
@@ -46,7 +46,7 @@
             </div>
             <div class="col s12 m4 l4 center">
                 <img src="{{asset('img/icon_2.svg')}}" alt="" class="img-responsive carde">
-                <h3>Comunicaciones</h3>
+                <h5>Comunicaciones</h5>
                 <ul>
                     <li>-Movistar y Tigo
                     </li>
@@ -62,7 +62,7 @@
             </div>
             <div class="col s12 m4 l4 center">
                 <img src="{{asset('img/icon_3.svg')}}" alt="" class="img-responsive carde">
-                <h3>Entretenimiento</h3>
+                <h5>Entretenimiento</h5>
                 <ul>
                     <li>- Paquetes DirecTV
                     </li>
@@ -89,7 +89,7 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col s12 l6 m6">
+            <div class="col s12 l6 m6 parte" id="slide2">
                 <br><br>
                 <a href="tel:0376293002" style="color: black;"><i style="color: #5b1a56;font-size: 2rem;"
                                                                   class="icon-phone "></i> Telefonos: 0376 29 30
@@ -147,12 +147,6 @@
             </div>
         </div>
     </div>
-    <div class="container">
 
-
-
-
-
-
-    </div>
+    @include('layout.partials.map')
 @endsection

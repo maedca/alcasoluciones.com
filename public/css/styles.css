@@ -23,9 +23,11 @@ body {
 p {
     line-height: 1.8em;
 }
-.carde{
+
+.carde {
     width: 10em;
 }
+
 .logo {
     margin-top: 30px;
     /*width: 20.5em;*/
@@ -106,10 +108,12 @@ footer ul > li > a {
     line-height: 10px !important;
     font-size: 12px;
 }
+
 .parallax-container {
     height: 450px;
     margin-bottom: 0px;
 }
+
 .logo_pmd {
     width: 70px;
     vertical-align: text-bottom;
@@ -149,16 +153,20 @@ footer ul > li > a {
     position: relative;
     bottom: -70px;
 }
+
 #map {
     height: 400px;
     width: 100%;
 }
-.full{
+
+.full {
     width: 100% !important;
 }
+
 #creditos p {
     line-height: 1em !important;
 }
+
 .slider .slides {
     background-color: transparent;
     margin: 0;
@@ -169,18 +177,22 @@ footer ul > li > a {
     height: 100%;
     width: 100%;
     background-position: center;
-    background-size:100% auto;
+    background-size: 100% auto;
     background-repeat: no-repeat;
 }
+
 .btn, .btn-large {
     background: #5b1a56;
 }
+
 .red.darken-3 {
     background-color: #5b1a56 !important;
 }
-.material-icons:hover{
-    color:#e63439;
+
+.material-icons:hover {
+    color: #e63439;
 }
+
 .slider .indicators .indicator-item.active {
     background-color: #5b1a56;
 }
@@ -198,6 +210,8 @@ footer ul > li > a {
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
-.descarga{
+
+.descarga {
     color: black;
 }
+

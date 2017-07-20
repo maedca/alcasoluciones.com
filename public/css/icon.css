@@ -33,7 +33,12 @@
 }
 .icon-marcador:before {
   content: "\e90d";
-  color: #616162;
+    color: #5B1A56;
+}
+
+.icon-marcadorfooter:before {
+    content: "\e90d";
+    color: #ffffff;
 }
 .icon-phone:before {
   content: "\e942";
