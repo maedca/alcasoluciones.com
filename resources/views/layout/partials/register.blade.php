@@ -1,5 +1,6 @@
 <div id="register" class="modal">
     <div class="modal-content">
+        <img src="{{asset('img/logo_sombra.png')}}" alt="">
     <div id="message-error" class="card-panel red lighten-2 white-text" style="display: none;">Hubo un error al enviar el formulario</div>
             
          <div class="row">

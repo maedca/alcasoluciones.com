@@ -76,6 +76,6 @@ class AuthController extends Controller
 
     public function redirectPath()
     {
-        return redirect()->guest('admin/home');
+        return redirect()->guest('/admin/home');
     }
 }
