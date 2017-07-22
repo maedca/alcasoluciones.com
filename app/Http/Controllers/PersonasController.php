@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use App\Persona;
 
 class PersonasController extends Controller
 {
@@ -37,7 +38,16 @@ class PersonasController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request, [
+            'name' => 'required|string',
+            'last_name' => 'required|string',
+            'city' => 'required|string',
+            'phone' => 'required|numeric',
+            'email' => 'required|email',
+        ]);
+        $data = $request->only(['name', 'last_name', 'city', 'phone', 'email']);
+        Persona::createOrFail($data);
+        return response()->json(['created' => true], 201);
     }
 
     /**

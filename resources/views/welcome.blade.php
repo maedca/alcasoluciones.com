@@ -147,6 +147,8 @@
             </div>
         </div>
     </div>
+    <!-- Modal de registro -->
+    @include('layout.partials.register')
 
     @include('layout.partials.map')
 @endsection
