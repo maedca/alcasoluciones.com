@@ -18,6 +18,7 @@
     <script src="{{asset('dist/sweetalert.min.js')}}"></script>
     <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.15/js/dataTables.material.min.js"></script>
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
 
     <title>Document</title>
 </head>

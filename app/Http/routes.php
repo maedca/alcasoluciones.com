@@ -38,7 +38,7 @@ Route::get('/admin/logout', [
 //Ruta para el registro de clientes
 
 Route::post('/cliente/registro', [
-    'uses' => 'personasController@store',
+    'uses' => 'PersonasController@store',
     'as' => 'public.registro'
 ]);
 Route::group(['middleware' => 'auth'], function () {
