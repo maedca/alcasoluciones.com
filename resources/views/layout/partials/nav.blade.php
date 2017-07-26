@@ -11,9 +11,9 @@
         <div class="container">
             <div class="row">
                 <ul class="left hide-on-med-and-down">
-                    <li><a href="modal1" id="start">Inicio</a></li>
-                    <li><a href="#slide1">Productos y Servicios</a></li>
-                    <li><a href="#slide2">Contáctenos</a></li>
+                    <li><a href="{{URL('/')}}">Inicio</a></li>
+                    <li><a href="/#slide1">Productos y Servicios</a></li>
+                    <li><a href="/#slide2">Contáctenos</a></li>
 
                 </ul>
                 <ul id="redes" class="right hide-on-med-and-down">

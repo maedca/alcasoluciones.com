@@ -1,16 +1,16 @@
 <div id="register" class="modal">
     <div class="modal-content">
-        <img src="{{asset('img/logo_sombra.png')}}" alt="">
+        <img src="{{asset('img/logo_sombra.png')}}" alt="" class="img img-responsive col s12">
     <div id="message-error" class="card-panel red lighten-2 white-text" style="display: none;">Hubo un error al enviar el formulario</div>
             
          <div class="row">
     <form id="register-form" class="col s12" onsubmit="event.preventDefault();onSubmit();" method="post">
-      
-        <div class="input-field col s6">
+
+        <div class="input-field col s12 l6">
           <input id="first_name" type="text" class="validate" required>
           <label for="first_name">Nombre</label>
         </div>
-        <div class="input-field col s6">
+        <div class="input-field col s12 l6">
           <input id="last_name" type="text" class="validate" required>
           <label for="last_name">Apellido</label>
         </div>
@@ -20,17 +20,17 @@
           <input id="email_person" type="email" class="validate" required>
           <label for="email_person">Email</label>
         </div>
-      
-      
-        <div class="col s12">
+
+
+        <div class="col s12 l6">
           <div class="input-field">
             <input id="city" type="text" class="validate" required>
             <label for="city">Ciudad</label>
           </div>
         </div>
-      
-      
-        <div class="col s12">
+
+
+        <div class="col s12 l6">
           <div class="input-field">
             <input id="phone" type="text" class="validate" required>
             <label for="phone">Teléfono</label>
