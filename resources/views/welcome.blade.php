@@ -1,6 +1,6 @@
 @extends('layout.app')
 @section('content')
-    <div class="container" id="fullpa">
+    <div class="container" id="">
         <div class="row">
             <div class="col s12 m12 l12">
                 <br>
@@ -84,8 +84,8 @@
             </div>
         </div>
     </div>
-    <div class="parallax-container">
-        <div class="parallax s12 l12 m12"><img class="img-responsive" src="{{asset('img/parallax.jpg')}}"></div>
+    <div class="parallax-container s12 l12 m12">
+        <div class="parallax "><img class="img-responsive" src="{{asset('img/parallax.jpg')}}"></div>
     </div>
     <div class="container">
         <div class="row">

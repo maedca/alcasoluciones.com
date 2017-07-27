@@ -5,15 +5,15 @@
         </div>
     </div>
 </div>
-<nav class="full navbar-fixed">
+<nav class="full navbar-fixed" id="slide0">
     <div class="nav-wrapper">
         <a href="#" data-activates="mobile-demo" class="right button-collapse"><i class="material-icons">menu</i></a>
         <div class="container">
             <div class="row">
                 <ul class="left hide-on-med-and-down">
-                    <li><a href="{{URL('/')}}">Inicio</a></li>
-                    <li><a href="/#slide1">Productos y Servicios</a></li>
-                    <li><a href="/#slide2">Contáctenos</a></li>
+                    <li><a href="#slide0">Inicio</a></li>
+                    <li><a href="#slide1">Productos y Servicios</a></li>
+                    <li><a href="#slide2">Contáctenos</a></li>
 
                 </ul>
                 <ul id="redes" class="right hide-on-med-and-down">
