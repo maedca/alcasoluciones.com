@@ -45,10 +45,12 @@
         <a class="modal-action waves-effect waves-green btn-flat" onclick="onSubmit()">Registrar</a>
     </div>
 </div>
+
 <script>
   $(document).ready(function(){
     // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
-    $('#register').modal().modal('open');
+    $('#register').modal();
+    $('#register').modal('open');
   });
 
   function onSubmit() {
@@ -70,8 +72,14 @@
       },
       url: '{{ route('public.registro') }}'
     }).done(function() {
-        $('#register').modal().modal('close');
         elem.style.display = 'none';
+        $('#register').modal('close');
+        swal({
+              title: 'Gracias!!!',
+              message: 'Envio exitoso',
+              type: 'success',
+              timer: 3000
+            });
       })
       .fail(function() {
       elem.style.display = 'block';
