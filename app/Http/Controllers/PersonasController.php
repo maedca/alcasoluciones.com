@@ -46,7 +46,7 @@ class PersonasController extends Controller
             'email' => 'required|email',
         ]);
         $data = $request->only(['name', 'last_name', 'city', 'phone', 'email']);
-        Persona::createOrFail($data);
+        Persona::create($data);
         return response()->json(['created' => true], 201);
     }
 
