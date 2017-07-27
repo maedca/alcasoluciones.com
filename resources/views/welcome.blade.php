@@ -1,8 +1,5 @@
 @extends('layout.app')
-@section('styles')
-<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.6/sweetalert2.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.6/sweetalert2.min.css">
-@endsection
+
 @section('content')
     <div class="container" id="fullpa">
         <div class="row">
